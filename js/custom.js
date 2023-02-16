@@ -15,3 +15,12 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+var login = $('#login');
+var close= $('#close')
+login.click(function () {
+    $('#modal_login').css('display', 'block');
+});
+close.click(function(){
+    $('#modal_login').css('display', 'none');
+});
