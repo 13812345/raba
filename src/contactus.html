@@ -10,11 +10,11 @@
     <link href="../css/main.css" rel="stylesheet" type="text/css">
 </head>
 
-<body class="bg-[#f5f5f5] iransansweb">
+<body class="bg-[#f5f5f5] iransansweb" dir="rtl">
     <header class="min-w-min sm:max-w-7xl mx-auto">
         <nav class="px-4 sm:px-4">
             <div class="bg-white mt-4 sm:mt-5 py-3 px-4 sm:px-6 rounded-md flex flex-wrap items-center relative">
-                <a class="flex flex-1 sm:flex-none cursor-pointer h-12" href="index.html"><img src="../jpg/rb.png"
+                <a class="flex flex-1 sm:flex-none cursor-pointer h-12" href="index.html"><img src="../jpg/raba2.png"
                         class="h-12 inline-block" alt="RABALOGO" /></a>
                 <button class="inline-flex tw-items-center ml-3 sm:hidden lg:hidden" onclick="myfunction()">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,19 +24,20 @@
                     </svg>
                 </button>
                 <div class="hidden sm:flex sm:flex-1">
-                    <ul class="sm:flex flex-1 ml-10 sm:ml-7 md:ml-16 my-auto ">
-                        <li class="px-4 sm:px-3 md:px-6 text-sm active:text-[#FA7169]"><a href="index.html">Home</a></li>
+                    <ul class="sm:flex flex-1 mr-10 sm:mr-7 md:mr-16 my-auto ">
+                        <li class="px-4 sm:px-3 md:px-6 text-sm active:text-[#FA7169]"><a href="index.html">خانه</a></li>
                         <li class="px-4 sm:px-3 md:px-6 text-sm cursor-pointer transition-colorsn hover:text-[#4F66E8]">
-                            Work samples</a></li>
+                            نمونه کارها</a></li>
                         <li class="px-4 sm:px-3 md:px-6 text-sm cursor-pointer transition-colorsn hover:text-[#4F66E8]">
-                            <a href="aboutus.html">About Us</a>
+                            <a href="aboutus.html">درباره ما</a>
                         </li>
                         <li class="px-4 sm:px-3 md:px-6 text-sm cursor-pointer transition-colorsn hover:text-[#4F66E8]">
-                            <a href="contactus.html">Contact Us</a>
+                            <a href="contactus.html">ارتباط با ما</a>
                         </li>
                     </ul>
-                    <a class="px-5 py-3.5 rounded-md text-sm text-white bg-[#4F66E8] flex flex-wrap transition-all cursor-pointer hover:bg-[#8993FF]"
-                        id="login">User portal</a>
+                    <a
+                        class="px-5 py-3.5 rounded-md text-sm text-white bg-[#4F66E8] flex flex-wrap transition-all cursor-pointer hover:bg-[#8993FF]" id="login">پورتال
+                        کاربران</a>
                 </div>
             </div>
         </nav>
@@ -45,39 +46,39 @@
         <div class="flex grid grid-cols-1 sm:grid-cols-2 md:grid-cols-7 mx-4 sm:mx-5 lg:mx-6 sm:gap-4 md:gap-6 lg:gap-16">
             <div class="sm:order-last md:col-span-4">
                 <h3
-                    class="text-base font-extrabold block relative before:content{''} before:absolute before:left-0  before:top-9 before:h-1 before:w-32 before:bg-[#5269EA]">
-                    Submit request</h3>
+                    class="text-base font-extrabold block relative before:content{''} before:absolute before:right-0  before:top-9 before:h-1 before:w-32 before:bg-[#5269EA]">
+                    ارسال درخواست</h3>
                 <form class="mt-8">
                     <div class="flex grid grid-cols-1 md:grid-cols-2 gap-5">
                         <div class="mb-4">
                             <label class="text-sm mb-2 block">
-                                first and last name
+                                نام و نام خانوادگی
                             </label>
-                            <input type="text" placeholder="Enter your first and last name" class="w-full h-12 px-3 py-2 text-sm placeholder:text-xs placeholder:text-zinc-500 rounded focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500">
+                            <input type="text" placeholder="نام و نام خانواگی خود را وارد نمایید" class="w-full h-12 px-3 py-2 text-sm placeholder:text-xs placeholder:text-zinc-500 rounded focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500">
                         </div>
                         <div>
-                            <label class="text-sm mb-2 block">Email</label>
-                            <input type="email" placeholder="Enter your email" class="w-full h-12 px-3 py-2 text-sm placeholder:text-xs placeholder:text-zinc-500 rounded focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500">
+                            <label class="text-sm mb-2 block">ایمیل</label>
+                            <input type="email" placeholder="ایمیل خود را وارد نمایید" class="w-full h-12 px-3 py-2 text-sm placeholder:text-xs placeholder:text-zinc-500 rounded focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500">
                         </div>
                     </div>
                     <div class="mt-4">
-                        <label class="text-sm mb-2 block">Description</label>
-                        <textarea placeholder="Enter your description"class="resize-none w-full h-32 px-3 py-2 text-sm placeholder:text-xs placeholder:text-zinc-500 rounded focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500 "></textarea>
+                        <label class="text-sm mb-2 block">توضیحات</label>
+                        <textarea placeholder="توضیحات خود را وارد نمایید"class="resize-none w-full h-32 px-3 py-2 text-sm placeholder:text-xs placeholder:text-zinc-500 rounded focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500 "></textarea>
                 </div>
-                <button type="submit" class="text-sm text-white transition-all bg-[#4F66E8] px-5 py-3.5 mt-6 rounded hover:bg-[#728AF9]">Submit request</button>
+                <button type="submit" class="text-sm text-white transition-all bg-[#4F66E8] px-5 py-3.5 mt-6 rounded hover:bg-[#728AF9]">ارسال درخواست</button>
                 </form>
             </div>
             <div class="mt-9 sm:mt-0 sm:order-first md:col-span-3">
                 <h3
-                class="text-base block font-extrabold relative before:content{''} before:absolute before:left-0  before:top-9 before:h-1 before:w-32 before:bg-[#5269EA]">
-                Ways of communication
+                class="text-base block font-extrabold relative before:content{''} before:absolute before:right-0  before:top-9 before:h-1 before:w-32 before:bg-[#5269EA]">
+                راه های ارتباطی
             </h3>
             <p class="text-sm mt-8 leading-8">
-                For consultation, you can contact us in the following ways, and to send a ticket, our consultants will respond to you 24 hours a day.
+                برای مشاوره میتوانید از راه های زیر با ما در ارتباط باشید وبرای ارسال تیکت مشاورین ما به صورت 24 ساعت پاسخگوی شما عزیزان می باشد 
             </p>
             <ul class="mt-5">
                 <li class="block  w-full lg:w-96  border border-1 border-zinc-200 rounded-md text-xs lg:text-sm mb-5 md:mb-6 lg:mb-8">
-                    <span class="py-2.5 px-2 md:py-3.5 md:px-3 lg:p-3.5 bg-[#4F66E8] p-1 inline-block mr-2 rounded-l-md">
+                    <span class="py-2.5 px-2 md:py-3.5 md:px-3 lg:p-3.5 bg-[#4F66E8] p-1 inline-block ml-2 rounded-r-md">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline-block">
                             <g clip-path="url(#clip0_123_151)">
                             <path d="M9.9999 11.1917C11.4358 11.1917 12.5999 10.0276 12.5999 8.59167C12.5999 7.15573 11.4358 5.99167 9.9999 5.99167C8.56396 5.99167 7.3999 7.15573 7.3999 8.59167C7.3999 10.0276 8.56396 11.1917 9.9999 11.1917Z" stroke="white"/>
@@ -90,10 +91,10 @@
                             </defs>
                             </svg>                            
                     </span>
-                    USA
+                    زاهدان خیابان دانشگاه پارک علم فناوری شرکت رابا
                 </li>
                 <li class="block  w-full lg:w-96 border border-1 border-zinc-200 rounded-md text-xs lg:text-sm mb-5 md:mb-6 lg:mb-8">
-                    <span class="py-2.5 px-2 md:py-3.5 md:px-3 lg:p-3.5  bg-[#4F66E8] p-1 inline-block mr-2 rounded-l-md">
+                    <span class="py-2.5 px-2 md:py-3.5 md:px-3 lg:p-3.5  bg-[#4F66E8] p-1 inline-block ml-2 rounded-r-md">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline-block">
                             <path d="M18.3082 15.275C18.3082 15.575 18.2415 15.8833 18.0998 16.1833C17.9582 16.4833 17.7748 16.7667 17.5332 17.0333C17.1248 17.4833 16.6748 17.8083 16.1665 18.0167C15.6665 18.225 15.1248 18.3333 14.5415 18.3333C13.6915 18.3333 12.7832 18.1333 11.8248 17.725C10.8665 17.3167 9.90817 16.7667 8.95817 16.075C7.99984 15.375 7.0915 14.6 6.22484 13.7417C5.3665 12.875 4.5915 11.9667 3.89984 11.0167C3.2165 10.0667 2.6665 9.11667 2.2665 8.17501C1.8665 7.22501 1.6665 6.31667 1.6665 5.45C1.6665 4.88334 1.7665 4.34167 1.9665 3.84167C2.1665 3.33334 2.48317 2.86667 2.92484 2.45001C3.45817 1.92501 4.0415 1.66667 4.65817 1.66667C4.8915 1.66667 5.12484 1.71667 5.33317 1.81667C5.54984 1.91667 5.7415 2.06667 5.8915 2.28334L7.82484 5.00834C7.97484 5.21667 8.08317 5.40834 8.15817 5.59167C8.23317 5.76667 8.27484 5.94167 8.27484 6.10001C8.27484 6.30001 8.2165 6.5 8.09984 6.69167C7.9915 6.88334 7.83317 7.08334 7.63317 7.28334L6.99984 7.94167C6.90817 8.03334 6.8665 8.14167 6.8665 8.27501C6.8665 8.34167 6.87484 8.4 6.8915 8.46667C6.9165 8.53334 6.9415 8.58334 6.95817 8.63334C7.10817 8.90834 7.3665 9.26667 7.73317 9.70001C8.10817 10.1333 8.50817 10.575 8.9415 11.0167C9.3915 11.4583 9.82484 11.8667 10.2665 12.2417C10.6998 12.6083 11.0582 12.8583 11.3415 13.0083C11.3832 13.025 11.4332 13.05 11.4915 13.075C11.5582 13.1 11.6248 13.1083 11.6998 13.1083C11.8415 13.1083 11.9498 13.0583 12.0415 12.9667L12.6748 12.3417C12.8832 12.1333 13.0832 11.975 13.2748 11.875C13.4665 11.7583 13.6582 11.7 13.8665 11.7C14.0248 11.7 14.1915 11.7333 14.3748 11.8083C14.5582 11.8833 14.7498 11.9917 14.9582 12.1333L17.7165 14.0917C17.9332 14.2417 18.0832 14.4167 18.1748 14.625C18.2582 14.8333 18.3082 15.0417 18.3082 15.275Z" stroke="white" stroke-miterlimit="10"/>
                             </svg>                            
@@ -101,7 +102,7 @@
                     09338973928
                 </li>
                 <li class="block  w-full lg:w-96 border border-1 border-zinc-200 rounded-md text-xs lg:text-sm">
-                    <span class="py-2.5 px-2 md:py-3.5 md:px-3 lg:p-3.5  bg-[#4F66E8] p-1 inline-block mr-2 rounded-l-md">
+                    <span class="py-2.5 px-2 md:py-3.5 md:px-3 lg:p-3.5  bg-[#4F66E8] p-1 inline-block ml-2 rounded-r-md">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline-block">
                             <path d="M14.1665 17.0833H5.83317C3.33317 17.0833 1.6665 15.8333 1.6665 12.9167V7.08333C1.6665 4.16666 3.33317 2.91666 5.83317 2.91666H14.1665C16.6665 2.91666 18.3332 4.16666 18.3332 7.08333V12.9167C18.3332 15.8333 16.6665 17.0833 14.1665 17.0833Z" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M14.1668 7.5L11.5585 9.58333C10.7002 10.2667 9.29183 10.2667 8.43349 9.58333L5.8335 7.5" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -117,9 +118,9 @@
         <div class="bg-[#303030] p-4 mx-4 rounded-lg md:py-6">
             <div class="flex relative">
                 <a class="cursor-pointer mr-2">
-                    <img src="../jpg/rabawh.png" class="h-9" alt="rabadark">
+                    <img src="../jpg/rabadark2.png" class="h-9" alt="rabadark">
                 </a>
-                <span class="block border border-2 border-[#8993FF] rounded-md w-9 h-9 absolute right-2">
+                <span class="block border border-2 border-[#8993FF] rounded-md w-9 h-9 absolute left-2">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                         class="my-1 mx-auto">
                         <path d="M19.92 15.0501L13.4 8.53014C12.63 7.76014 11.37 7.76014 10.6 8.53014L4.07996 15.0501"
@@ -131,19 +132,19 @@
             <div class="flex grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-6 mt-8">
                 <div>
                     <ul class="px-3">
-                        <li class="font-medium text-white text-base pb-1">Quick accesses</li>
-                        <li class="text-sm text-zinc-400 py-3">Home</li>
-                        <li class="text-sm text-zinc-400 py-3">portfolio</li>
-                        <li class="text-sm text-zinc-400 py-3">About Us</li>
-                        <li class="text-sm text-zinc-400 py-3">Contact Us</li>
+                        <li class="font-medium text-white text-base pb-1">دسترسی های سریع</li>
+                        <li class="text-sm text-zinc-400 py-3">خانه</li>
+                        <li class="text-sm text-zinc-400 py-3">نمونه کارها</li>
+                        <li class="text-sm text-zinc-400 py-3">درباره ما</li>
+                        <li class="text-sm text-zinc-400 py-3">ارتباط با ما</li>
                     </ul>
                 </div>
                 <div class="sm:col-span-2 lg:col-span-1">
                     <ul class="px-3">
-                        <li class="font-medium text-white text-base pb-1">Ways of communication</li>
+                        <li class="font-medium text-white text-base pb-1">راه های ارتباطی</li>
                         <li class="text-sm text-zinc-400 py-3">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg" class="inline-block align-[-6px] mr-2">
+                                xmlns="http://www.w3.org/2000/svg" class="inline-block align-[-6px] ml-2">
                                 <path
                                     d="M20 17.064C20 17.352 19.9359 17.648 19.7997 17.936C19.6635 18.224 19.4872 18.496 19.2549 18.752C18.8623 19.184 18.4296 19.496 17.9409 19.696C17.4602 19.896 16.9394 20 16.3786 20C15.5613 20 14.688 19.808 13.7666 19.416C12.8453 19.024 11.9239 18.496 11.0105 17.832C10.0891 17.16 9.21582 16.416 8.38257 15.592C7.55734 14.76 6.81222 13.888 6.14722 12.976C5.49024 12.064 4.96144 11.152 4.57687 10.248C4.19229 9.336 4 8.464 4 7.632C4 7.088 4.09614 6.568 4.28843 6.088C4.48072 5.6 4.78518 5.152 5.20981 4.752C5.72258 4.248 6.28343 4 6.87631 4C7.10065 4 7.32499 4.048 7.52529 4.144C7.7336 4.24 7.91788 4.384 8.06209 4.592L9.92088 7.208C10.0651 7.408 10.1693 7.592 10.2414 7.768C10.3135 7.936 10.3535 8.104 10.3535 8.256C10.3535 8.448 10.2974 8.64 10.1853 8.824C10.0811 9.008 9.92889 9.2 9.7366 9.392L9.12769 10.024C9.03956 10.112 8.9995 10.216 8.9995 10.344C8.9995 10.408 9.00751 10.464 9.02354 10.528C9.04757 10.592 9.07161 10.64 9.08763 10.688C9.23185 10.952 9.48022 11.296 9.83275 11.712C10.1933 12.128 10.5779 12.552 10.9945 12.976C11.4271 13.4 11.8438 13.792 12.2684 14.152C12.685 14.504 13.0295 14.744 13.302 14.888C13.342 14.904 13.3901 14.928 13.4462 14.952C13.5103 14.976 13.5744 14.984 13.6465 14.984C13.7827 14.984 13.8868 14.936 13.975 14.848L14.5839 14.248C14.7842 14.048 14.9765 13.896 15.1607 13.8C15.345 13.688 15.5293 13.632 15.7296 13.632C15.8818 13.632 16.0421 13.664 16.2183 13.736C16.3946 13.808 16.5789 13.912 16.7792 14.048L19.4311 15.928C19.6395 16.072 19.7837 16.24 19.8718 16.44C19.9519 16.64 20 16.84 20 17.064Z"
                                     stroke="#CCCCCC" stroke-miterlimit="10" />
@@ -152,7 +153,7 @@
                         </li>
                         <li class="text-sm text-zinc-400 py-3">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg" class="inline-block align-[-6px] mr-2">
+                                xmlns="http://www.w3.org/2000/svg" class="inline-block align-[-6px] ml-2">
                                 <rect x="4" y="6" width="16" height="12" rx="2" stroke="#CCCCCC" />
                                 <path d="M4 9L11.1056 12.5528C11.6686 12.8343 12.3314 12.8343 12.8944 12.5528L20 9"
                                     stroke="#CCCCCC" />
@@ -161,7 +162,7 @@
                         </li>
                         <li class="text-sm text-zinc-400 py-3 leading-8">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg" class="inline-block align-[-6px] mr-2">
+                                xmlns="http://www.w3.org/2000/svg" class="inline-block align-[-6px] ml-2">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M12.1228 9.5C11.0182 9.5 10.1228 10.3954 10.1228 11.5C10.1228 12.6046 11.0182 13.5 12.1228 13.5C13.2274 13.5 14.1228 12.6046 14.1228 11.5C14.1228 10.3954 13.2274 9.5 12.1228 9.5ZM9.1228 11.5C9.1228 9.84315 10.4659 8.5 12.1228 8.5C13.7797 8.5 15.1228 9.84315 15.1228 11.5C15.1228 13.1569 13.7797 14.5 12.1228 14.5C10.4659 14.5 9.1228 13.1569 9.1228 11.5Z"
                                     fill="#CCCCCC" />
@@ -169,11 +170,12 @@
                                     d="M11.9026 5.5C9.13087 5.49813 6.40885 7.10869 5.68188 10.304C4.82371 14.0957 7.17465 17.3711 9.35787 19.4754C10.7813 20.8421 13.0194 20.8408 14.4335 19.4759L14.4344 19.4751C16.6256 17.3709 18.9763 14.1033 18.118 10.3117L18.118 10.3117C17.3948 7.11624 14.6745 5.50188 11.9026 5.5ZM19.0933 10.0909C18.2481 6.35663 15.0509 4.50213 11.9033 4.5C8.75565 4.49787 5.55623 6.34812 4.70675 10.0824L4.70664 10.0829C3.7246 14.4209 6.43056 18.0429 8.66428 20.1957L8.66491 20.1963C10.474 21.9338 13.3244 21.9353 15.127 20.1964C17.3689 18.0435 20.0754 14.4294 19.0933 10.0909Z"
                                     fill="#CCCCCC" />
                             </svg>
-                            Zahedan, Raba Science Park University Street
+                            زاهدان خیابان دانشگاه پارک علم فناوری
+                            شرکت رابا
                         </li>
                         <ul class="mt-2">
                             <li
-                                class="w-9 h-9 rounded-full bg-zinc-800 p-1.5 inline-block mr-3 cursor-pointer hover:bg-zinc-900">
+                                class="w-9 h-9 rounded-full bg-zinc-800 p-1.5 inline-block ml-3 cursor-pointer hover:bg-zinc-900">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -182,7 +184,7 @@
                                 </svg>
                             </li>
                             <li
-                                class="w-9 h-9 rounded-full bg-zinc-800 p-1.5 inline-block mr-3 cursor-pointer hover:bg-zinc-900">
+                                class="w-9 h-9 rounded-full bg-zinc-800 p-1.5 inline-block ml-3 cursor-pointer hover:bg-zinc-900">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -210,29 +212,29 @@
                     </ul>
                 </div>
                 <div class="sm:col-span-3 md:col-span-2 lg:col-span-2">
-                    <h3 class="m-0 px-3 text-base text-white">Consultation request</h3>
+                    <h3 class="m-0 px-3 text-base text-white">درخواست مشاوره</h3>
                     <form class="px-3 mt-4">
                         <div class="flex flex-row grid grid-cols-1 lg:grid-cols-2 lg:gap-4 lg:mb-4">
                             <div>
-                                <label class="text-zinc-400 text-sm">first name and last name</label>
+                                <label class="text-zinc-400 text-sm">نام و نام خانوادگی</label>
                                 <input type="text"
                                     class="w-full border border-1 border-zinc-500 bg-[#303030] rounded h-9 mt-2 placeholder:text-xs placeholder:text-zinc-500 px-3 focus:outline-none focus:ring-1 focus:ring-sky-800 focus:border-sky-500 text-white text-sm"
-                                    placeholder="Enter your first and last name">
+                                    placeholder="نام و نام خانوادگی خود را وارد نمایید">
                             </div>
                             <div class="my-4 lg:my-0">
-                                <label class="text-zinc-400 text-sm">Email</label>
+                                <label class="text-zinc-400 text-sm">ایمیل</label>
                                 <input type="email"
                                     class="w-full border border-1 border-zinc-500 bg-[#303030] rounded h-9 mt-2 placeholder:text-xs placeholder:text-zinc-500 px-3 focus:outline-none focus:ring-1 focus:ring-sky-800 focus:border-sky-500 text-white text-sm"
-                                    placeholder="Enter your email">
+                                    placeholder="ایمیل خود را وارد نمایید">
 
                             </div>
                         </div>
-                        <label class="text-zinc-400 text-sm">Description of the request</label>
+                        <label class="text-zinc-400 text-sm">توضیحات درخواست</label>
                         <textarea type="text"
                             class="resize-none pt-3 w-full border border-1 border-zinc-500 bg-[#303030] rounded h-20 mt-2 placeholder:text-xs placeholder:text-zinc-500 px-3 focus:outline-none focus:ring-1 focus:ring-sky-800 focus:border-sky-500 text-white text-sm"
-                            placeholder="Enter your description"></textarea>
+                            placeholder="توضیحات خود را وارد نمایید"></textarea>
                         <button
-                            class="w-full sm:w-80 lg:w-60 bg-[#4F66E8] text-white rounded text-center h-10 mt-5 text-sm">Send</button>
+                            class="w-full sm:w-80 lg:w-60 bg-[#4F66E8] text-white rounded text-center h-10 mt-5 text-sm">ارسال</button>
                     </form>
                 </div>
             </div>
